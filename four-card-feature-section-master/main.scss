@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 98%);
+  font-family: "Poppins", sans-serif;
+}
+
+main.container {
+  max-width: 90rem;
+  min-height: 30rem;
+  padding: 1rem 15rem;
+
+  & .text {
+    margin-bottom: 1rem;
+
+    & h1 {
+      text-align: center;
+
+      &:first-child {
+        font-weight: 100;
+      }
+    }
+
+    & > p {
+      text-align: center;
+      margin-top: 1rem;
+      padding: 0 13rem;
+    }
+  }
+
+  & .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+
+    & .card1 {
+      background-color: white;
+      box-shadow: 1px 7px 0 5px hsl(0, 6%, 84%);
+      border-top: 0.3rem solid hsl(180, 62%, 55%);
+      padding: 1rem 1.5rem 1rem 1.5rem;
+      border-radius: 0.3rem;
+
+      & h3 {
+        margin-bottom: 0.5rem;
+      }
+
+      & p {
+        margin-bottom: 1rem;
+        font-weight: 200;
+      }
+
+      & img {
+        margin-left: 11rem;
+      }
+    }
+
+    .combine {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      gap: 1rem;
+
+      & .card2 {
+        background-color: white;
+        box-shadow: 1px 7px 0 5px hsl(0, 6%, 84%);
+        border-top: 0.3rem solid hsl(0, 78%, 62%);
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        border-radius: 0.3rem;
+
+        & h3 {
+          margin-bottom: 0.5rem;
+        }
+
+        & p {
+          margin-bottom: 1rem;
+        }
+
+        & img {
+          margin-left: 11rem;
+        }
+      }
+
+      & .card3 {
+        background-color: white;
+        box-shadow: 1px 7px 0 5px hsl(0, 6%, 84%);
+        border-top: 0.3rem solid hsl(34, 97%, 64%);
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        border-radius: 0.3rem;
+
+        & h3 {
+          margin-bottom: 0.5rem;
+        }
+
+        & p {
+          margin-bottom: 1rem;
+        }
+
+        & img {
+          margin-left: 11rem;
+        }
+      }
+    }
+
+    & .card4 {
+      background-color: white;
+      box-shadow: 1px 7px 0 5px hsl(0, 6%, 84%);
+      border-top: 0.3rem solid hsl(212, 86%, 64%);
+      padding: 1rem 1.5rem 1rem 1.5rem;
+      border-radius: 0.3rem;
+
+      & h3 {
+        margin-bottom: 0.5rem;
+      }
+
+      & p {
+        margin-bottom: 1rem;
+      }
+
+      & img {
+        margin-left: 11rem;
+      }
+    }
+  }
+}
+
+footer p.attribution {
+  font-size: 0.7rem;
+  text-align: center;
+
+  & a {
+    color: hsl(228, 45%, 44%);
+  }
+}
+
+@media (max-width: 1150px) and (min-width: 961px) {
+  main.container {
+    & .text {
+      & > p {
+        padding: 0 9rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 960px) and (min-width: 401px) {
+  main.container {
+    padding: 1rem 3rem;
+
+    & .text {
+      margin-bottom: 3rem;
+
+      & h1 {
+        font-size: 1.5rem;
+      }
+
+      & > p {
+        padding: 0 0;
+      }
+    }
+
+    & .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      text-align: center;
+
+      & .card1 {
+        & img {
+          margin: auto;
+        }
+      }
+
+      .combine {
+        & .card2 {
+          & img {
+            margin: auto;
+          }
+        }
+
+        & .card3 {
+          & img {
+            margin: auto;
+          }
+        }
+      }
+
+      & .card4 {
+        & img {
+          margin: auto;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  main.container {
+    padding: 1rem 1.5rem;
+
+    & .text {
+      margin-bottom: 3rem;
+
+      & h1 {
+        font-size: 1.5rem;
+      }
+
+      & > p {
+        padding: 0 0;
+      }
+    }
+
+    & .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+}
