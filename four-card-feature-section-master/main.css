@@ -13,7 +13,7 @@ body {
 main.container {
   max-width: 90rem;
   min-height: 30rem;
-  padding: 1rem 15rem;
+  padding: 1rem 6rem;
 }
 main.container .text {
   margin-bottom: 1rem;
@@ -70,6 +70,7 @@ main.container .grid .combine .card2 h3 {
 }
 main.container .grid .combine .card2 p {
   margin-bottom: 1rem;
+  font-weight: 200;
 }
 main.container .grid .combine .card2 img {
   margin-left: 11rem;
@@ -86,6 +87,7 @@ main.container .grid .combine .card3 h3 {
 }
 main.container .grid .combine .card3 p {
   margin-bottom: 1rem;
+  font-weight: 200;
 }
 main.container .grid .combine .card3 img {
   margin-left: 11rem;
@@ -102,6 +104,7 @@ main.container .grid .card4 h3 {
 }
 main.container .grid .card4 p {
   margin-bottom: 1rem;
+  font-weight: 200;
 }
 main.container .grid .card4 img {
   margin-left: 11rem;

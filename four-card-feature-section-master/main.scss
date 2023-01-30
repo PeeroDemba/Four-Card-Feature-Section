@@ -13,7 +13,7 @@ body {
 main.container {
   max-width: 90rem;
   min-height: 30rem;
-  padding: 1rem 15rem;
+  padding: 1rem 6rem;
 
   & .text {
     margin-bottom: 1rem;
@@ -79,6 +79,7 @@ main.container {
 
         & p {
           margin-bottom: 1rem;
+          font-weight: 200;
         }
 
         & img {
@@ -99,6 +100,7 @@ main.container {
 
         & p {
           margin-bottom: 1rem;
+          font-weight: 200;
         }
 
         & img {
@@ -120,6 +122,7 @@ main.container {
 
       & p {
         margin-bottom: 1rem;
+        font-weight: 200;
       }
 
       & img {
