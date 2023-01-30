@@ -51,7 +51,7 @@ main.container .grid .card1 p {
   font-weight: 200;
 }
 main.container .grid .card1 img {
-  margin-left: 11rem;
+  margin-left: 16rem;
 }
 main.container .grid .combine {
   display: grid;
@@ -73,7 +73,7 @@ main.container .grid .combine .card2 p {
   font-weight: 200;
 }
 main.container .grid .combine .card2 img {
-  margin-left: 11rem;
+  margin-left: 16rem;
 }
 main.container .grid .combine .card3 {
   background-color: white;
@@ -90,7 +90,7 @@ main.container .grid .combine .card3 p {
   font-weight: 200;
 }
 main.container .grid .combine .card3 img {
-  margin-left: 11rem;
+  margin-left: 16rem;
 }
 main.container .grid .card4 {
   background-color: white;
@@ -107,7 +107,7 @@ main.container .grid .card4 p {
   font-weight: 200;
 }
 main.container .grid .card4 img {
-  margin-left: 11rem;
+  margin-left: 16rem;
 }
 
 footer p.attribution {
