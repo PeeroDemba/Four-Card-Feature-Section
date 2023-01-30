@@ -38,7 +38,7 @@ main.container .grid {
 }
 main.container .grid .card1 {
   background-color: white;
-  box-shadow: 1px 7px 0 5px hsl(0deg, 6%, 84%);
+  box-shadow: 1px 7px 0 5px hsl(0deg, 7%, 94%);
   border-top: 0.3rem solid hsl(180deg, 62%, 55%);
   padding: 1rem 1.5rem 1rem 1.5rem;
   border-radius: 0.3rem;
@@ -60,7 +60,7 @@ main.container .grid .combine {
 }
 main.container .grid .combine .card2 {
   background-color: white;
-  box-shadow: 1px 7px 0 5px hsl(0deg, 6%, 84%);
+  box-shadow: 1px 7px 0 5px hsl(0deg, 7%, 94%);
   border-top: 0.3rem solid hsl(0deg, 78%, 62%);
   padding: 1rem 1.5rem 1rem 1.5rem;
   border-radius: 0.3rem;
@@ -77,7 +77,7 @@ main.container .grid .combine .card2 img {
 }
 main.container .grid .combine .card3 {
   background-color: white;
-  box-shadow: 1px 7px 0 5px hsl(0deg, 6%, 84%);
+  box-shadow: 1px 7px 0 5px hsl(0deg, 7%, 94%);
   border-top: 0.3rem solid hsl(34deg, 97%, 64%);
   padding: 1rem 1.5rem 1rem 1.5rem;
   border-radius: 0.3rem;
@@ -94,7 +94,7 @@ main.container .grid .combine .card3 img {
 }
 main.container .grid .card4 {
   background-color: white;
-  box-shadow: 1px 7px 0 5px hsl(0deg, 6%, 84%);
+  box-shadow: 1px 7px 0 5px hsl(0deg, 7%, 94%);
   border-top: 0.3rem solid hsl(212deg, 86%, 64%);
   padding: 1rem 1.5rem 1rem 1.5rem;
   border-radius: 0.3rem;
